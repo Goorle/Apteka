@@ -67,6 +67,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
                 intent.putExtra("count", countProduct.getText().toString());
 
                 itemView.getContext().startActivity(intent);
+
             });
         }
     }
